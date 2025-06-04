@@ -1,7 +1,7 @@
 from sys import argv
 from stats import get_num_words
 from stats import get_letter_count
-## Main script to read a file and count words and letters
+## Main script to read a file and split words and letters
 if len(argv) < 2:
         print("Usage: python3 main.py <path_to_book>")
         exit(1)
